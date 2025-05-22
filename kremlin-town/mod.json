@@ -3,9 +3,28 @@
 	"description" : "New town originally made by CoreWoG team, now redone by our small team",
 	"author" : "Olegmods.INC, Vovan1698. Forest Protector by Nephretes and Mitlandy. Meadow terrain alpha by Grossmaster. Music - Fabrice-Tiercelin and AI Udio. Original town idea - Kremlin town team, Bolotnik originally made by Axolotl.",
 	"contact" : "https://vk.com/olegkomarant",
+<<<<<<< Updated upstream
 	"version" : "3.0.0",
+||||||| Stash base
+	"version" : "3.0.1",
+=======
+	"version" : "3.0.8",
+>>>>>>> Stashed changes
 	"changelog" :
 	{
+<<<<<<< Updated upstream
+||||||| Stash base
+                "3.0.1"   : [ "Bears and Rosomaha sprites updated" ],
+=======
+		"3.0.8"   : [ "Meadow battlefield changed." ],
+		"3.0.7"   : [ "Russian translation added." ],
+		"3.0.6"   : [ "Bear sprite update." ],
+		"3.0.5"   : [ "Bug fixes." ],
+		"3.0.4"   : [ "Stack experience update." ],
+		"3.0.3"   : [ "Bug fixes." ],
+                "3.0.2"   : [ "Stack experience added." ],
+                "3.0.1"   : [ "Bears and Rosomaha sprites updated" ],
+>>>>>>> Stashed changes
                 "3.0.0"   : [ "Major update" ],
                 "2.3.6"   : [ "New music theme by Fabrice-Tiercelin and AI Udio" ],
                 "2.3.5"   : [ "Volot fix" ],
@@ -29,12 +48,13 @@
 		"min" : "1.6.0"
 	},	
 	"depends" :
-    [
+    	[
         	"hota.mapdecorations",
 		"hota.highlandsterrain"
-    ],
+    	],
 	"modType" : "Town",	
-    "factions" : [ "config/kremlin/town" ],
+    	"factions" : [ "config/kremlin/town" ],
+	
 	"chinese": {
 		"name" : "克里姆林",
 		"description" : "New Towns团队制作的新城镇，从未发布过。Olegmods.INC在Anton Sergeew的帮助下重置。",
@@ -49,23 +69,30 @@
 			"translation/kremlin/polish.json"
 		]
 	},
+	"russian": {
+		"name" : "Кремль",
+		"description" : "Новый город, оригинально создававшийся командой CoreWoG, теперь воссозданный.",
+		"translations" : [
+			"translation/kremlin/russian.json"
+		]
+	},
 	"creatures" :
 	[
 		"config/kremlin/creatures/fairy1.json",
 		"config/kremlin/creatures/fairy2.json",
 		"config/kremlin/creatures/fench1.json",
 		"config/kremlin/creatures/fench2.json",
-        "config/kremlin/creatures/fnoble1.json",
+		"config/kremlin/creatures/fnoble1.json",
 		"config/kremlin/creatures/fnoble2.json",
-        "config/kremlin/creatures/wisp1.json",
+		"config/kremlin/creatures/wisp1.json",
 		"config/kremlin/creatures/wisp2.json",
 		"config/kremlin/creatures/hatchling1.json",
 		"config/kremlin/creatures/hatchling2.json",
-///		"config/kremlin/creatures/fwyvern1.json",
-///		"config/kremlin/creatures/fwyvern2.json",
+//		"config/kremlin/creatures/fwyvern1.json",
+//		"config/kremlin/creatures/fwyvern2.json",
 		"config/kremlin/creatures/fdrag1.json",
-///		"config/kremlin/creatures/fdrag2.json",
-///		"config/kremlin/creatures/forestwitch.json",
+//		"config/kremlin/creatures/fdrag2.json",
+//		"config/kremlin/creatures/forestwitch.json",
 		"config/kremlin/creatures/yaga.json",	
 		"config/kremlin/creatures/kuznets.json",	
 		"config/kremlin/creatures/volot.json",	
@@ -124,11 +151,11 @@
 		"config/kremlin/artifacts/ratnikscuirass.json"
 	],
 	"objects" :
-    [ 
+    	[ 
 		"config/kremlin/dwellings.json",
 		"config/kremlin/banks/bogatyrCache.json",
 		"config/kremlin/banks/covenHill.json",
 		"config/kremlin/banks/enchantedGlade.json",
 
-    ]
+    	]
 }
